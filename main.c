@@ -22,7 +22,7 @@ printf("kisi Soyadi: Dikici\n");
 printf("Kisi Memleket: Kahramanmaras\n");
 printf("Kisi Bolumu: Computer Engineering\n");
 printf("\n\n");
-printf("\n\n");
+printf("\n\n\n");
 printf("**********");
 
 

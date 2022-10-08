@@ -15,12 +15,13 @@ int main(int argc, char *argv[]) {
 // \n o komutun sonunu orda kesip terminalde bir  alt satırdan devam etmemizi sağlar
 
 
-printf("*****Kisi Bilgi*****\n");
+printf("******Kisi Bilgi******\n");
 printf("\n\n");
-printf("Kisi Adi: Fatih Mehmet\n");
+printf("Kisi Adi: Fatih\n");
 printf("kisi Soyadi: Dikici\n");
 printf("Kisi Memleket: Kahramanmaras\n");
 printf("Kisi Bolumu: Computer Engineering\n");
+printf("\n\n");
 printf("\n\n");
 printf("**********");
 

@@ -4,7 +4,7 @@
 
 
 int main() {
-	int s1,s2,topla,cikar,carp,bol;
+	int s1,s2,s3,topla,cikar,carp,bol;
 	s1=20;
 	s2=5;
 	topla= s1+s2;

@@ -5,7 +5,7 @@ int main(int argc, char *argv[]) {
 	
 	/*int sayi;
 	
-    printf("girdiðiniz sayi: ");
+    printf("girdiÄŸiniz sayi: ");
 	scanf("%d",&sayi);
 	
 	if (sayi%2==0)
@@ -18,11 +18,11 @@ int main(int argc, char *argv[]) {
 	}
 	*/
 	
-	// KLAVYEDEN GÝRÝLEN DERECEYE GÖRE SUYUN DURUMUNU YAZDIRAN PROGRAMI KODLAYIN
+	// KLAVYEDEN GÄ°RÄ°LEN DERECEYE GÃ–RE SUYUN DURUMUNU YAZDIRAN PROGRAMI KODLAYIN
 	
-	//0ve altý buz
-	//0 100 arasý su
-	//100 ve üstü buhar
+	//0ve altÄ± buz
+	//0 100 arasÄ± su
+	//100 ve Ã¼stÃ¼ buhar
 	
 /*	int sicaklik;
 	printf("****Suyun Durumu****\n\n");
@@ -46,21 +46,24 @@ int main(int argc, char *argv[]) {
 	
 	printf("***ortalama hesaplama***\n");
 	
-	int s1,s2,s3,proje,ort;
+	int s1,s2,s3,proje;
+	float ort;
 	
 	printf("1.sinav notunuzu giriniz: ");
-	scanf("%d\n",&s1);
+	scanf("%d\n", &s1);
 	
     printf("2.sinav notunuzu giriniz: ");
-    scanf("%d\n",&s2);
+    scanf("%d\n", &s2);
     
     printf("3.sinav notunu giriniz: ");
-    scanf("%d",&s3);
+    scanf("%d\n", &s3);
     
     printf("proje notunuzu giriniz: ");
-    scanf("%d",&proje);
+    scanf("%d\n", &proje);
     
-    ort=s1+s2+s3+proje/4;
+    ort=(s1+s2+s3+proje)/4;
+    
+    printf("%f", ort);
     
     if (ort<50)
      {
